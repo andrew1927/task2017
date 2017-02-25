@@ -1,12 +1,79 @@
-.wrapper{
+.content-wrapper{
+	border: solid black 30px;
 	width: 1024px;
 	height: 768px;
 	font: 24px "OpenSansBold";
+	margin: auto;
 }
-.wrapper header h1{
+.content-wrapper header{
+	margin: 25px 0 17px 25px;
+}
+.content-wrapper header h1{
 	text-transform: uppercase; 
 	color: #8499a7;
 }
 header h1 span{
 	color:#21b8c6;
 }
+/*------------------gallery---------------------*/
+#wrapper {
+	  margin: 0 25px;
+	  overflow: hidden; 
+}
+#scroller {
+	height: 100%;
+	float: left;
+}
+.gallery{
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+	background: #999;
+}
+.gallery > div{
+	display: inline-block;
+	margin: 4px;
+}	
+/*.gallery .info{
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	background: #fff;
+	opacity: 0.95;
+	transition: 500ms transform;
+	transform: translate3d(0, 60px, 0);
+} 
+.gallery .commentsImg{
+	width: 30px;
+	height: 30px;
+	background: url(../images/comments.png) no-repeat;
+}
+.gallery .likesImg{
+	width: 30px;
+	height: 30px;
+	background: url(../images/likes.png) no-repeat;
+}
+.gallery .dislikesImg{
+	width: 30px;
+	height: 30px;
+	background: url(../images/dislikes.png) no-repeat;
+}
+.gallery .circle{
+	font: 11px "OpenSansSemiBold";
+	color:  #0d7f8a;
+    width: 15px;
+	height: 15px;
+	border: 2px solid #a1b1bb;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.gallery > div:hover .info{
+	display: flex;
+	transform: translate3d(0, 0, 0);
+}*/
+
+

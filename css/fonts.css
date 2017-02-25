@@ -4,3 +4,9 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: OpenSansSemiBold;
+    src: url(../fonts/OpenSansSemiBold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

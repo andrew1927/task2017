@@ -6,23 +6,35 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="scripts/iscroll.js"></script>
+  <script src="scripts/initScroll.js"></script>
+  <script src="lib/jquery-3.1.1.js"></script> 
+  <script src="scripts/jquery.nicescroll.min.js"></script>
+  <!-- <script>
+    $(document).ready(
+      function() { 
+    $("#wrapper").niceScroll({cursorcolor: '#21b8c6', cursoropacitymin: '1', cursorwidth: '10px'});
+  }
+);
+  </script> -->
 </head>
-<body>
-  	<div class="wrapper">
-  		<header>
-  			<h1>welcome to viseven <span>imagestock</span></h1>
-  		</header>
-  		<section>
-  			<img src="images/img 1.png" alt="1">
-  			<img src="images/img 2.png" alt="2">
-  			<img src="images/img 3.png" alt="3">
-  			<img src="images/img 4.png" alt="4">
-  			<img src="images/img 5.png" alt="5">
-  			<img src="images/img 6.png" alt="6">
-  			<img src="images/img 7.png" alt="7">
-  			<img src="images/img 8.png" alt="8">
-  		</section>
-  		<footer></footer>
+<body onload="loaded()">
+  	<div class="content-wrapper">
+      <section class="main">
+        <header>
+          <h1>welcome to viseven <span>imagestock</span></h1>
+        </header>
+        <div id="wrapper">
+          <div id="scroller">
+            <div class="gallery"></div>
+          </div>
+        </div>
+      </section>
+      <section class="pop-up">
+        
+      </section>
   	</div>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
