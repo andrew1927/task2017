@@ -53,4 +53,22 @@
 		return element;
 	}
 	}
+	var galleryImg = document.getElementsByTagName("img")[0],
+		popup = document.getElementsByClassName("popup")[0],
+		close = document.getElementsByClassName("close")[0];
+
+	function show(element){
+		element.style.display = "block";
+	}
+	function hide(element){
+		element.style.display = "none";
+	}
+
+	galleryImg.addEventListener("click", function(){
+		show(popup);
+	});
+	close.addEventListener("click", function(){
+		hide(popup);
+	})
+
 })();

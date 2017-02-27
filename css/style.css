@@ -34,7 +34,7 @@ header h1 span{
 	display: inline-block;
 	margin: 4px;
 }	
-/*.gallery .info{
+.gallery .info{
 	display: flex;
 	position: absolute;
 	bottom: 0;
@@ -74,6 +74,34 @@ header h1 span{
 .gallery > div:hover .info{
 	display: flex;
 	transform: translate3d(0, 0, 0);
-}*/
+}
 
-
+/*---------------pop-up--------------------*/
+.popup{
+	display: none;
+}
+#popup{
+	position: absolute;
+	left: 228px;
+	top: 152px;
+	z-index: 1;
+	width: 809px;
+	height: 596px;
+	background: #000;
+}
+#popup-bg{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: .7;
+}
+.close{
+	position: absolute;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	background: url('../images/close.png');
+	cursor: pointer;
+}

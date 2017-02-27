@@ -8,15 +8,6 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="scripts/iscroll.js"></script>
   <script src="scripts/initScroll.js"></script>
-  <script src="lib/jquery-3.1.1.js"></script> 
-  <script src="scripts/jquery.nicescroll.min.js"></script>
-  <!-- <script>
-    $(document).ready(
-      function() { 
-    $("#wrapper").niceScroll({cursorcolor: '#21b8c6', cursoropacitymin: '1', cursorwidth: '10px'});
-  }
-);
-  </script> -->
 </head>
 <body onload="loaded()">
   	<div class="content-wrapper">
@@ -30,8 +21,11 @@
           </div>
         </div>
       </section>
-      <section class="pop-up">
-        
+      <section class="popup">
+        <div id="popup-bg"></div>
+        <div id="popup">
+          <div class="close"></div>
+        </div>
       </section>
   	</div>
     <script src="scripts/data.js"></script>
